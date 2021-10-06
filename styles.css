@@ -40,6 +40,11 @@ div#foodbkgd {
   
 }
 
+div#foodbkgd.title {
+  color: black;
+  font-size: 100px;
+}
+
 h4 {
   margin-bottom: 10px;
   font-size: 25px;
