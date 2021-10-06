@@ -42,7 +42,6 @@ div#foodbkgd {
 
 div#foodbkgd.title {
   color: black;
-  font-size: 100px;
 }
 
 h4 {
@@ -53,6 +52,15 @@ h4 {
 
 ul, ol {
   margin-top: 0;
+}
+
+ul, ol {
+  display: none;
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
 }
 
 .copyright {
@@ -75,6 +83,7 @@ ul, ol {
   font-size: 20px;
   background-color: whitesmoke;
 }
+
 
 #directions {
   font-family: Calibri;
